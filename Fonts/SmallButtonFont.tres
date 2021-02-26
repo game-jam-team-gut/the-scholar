@@ -2,7 +2,6 @@
 
 [ext_resource path="res://Fonts/aAtos.ttf" type="DynamicFontData" id=1]
 
-
 [resource]
-size = 80
+size = 30
 font_data = ExtResource( 1 )

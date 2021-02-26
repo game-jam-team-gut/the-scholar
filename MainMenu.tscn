@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://MainMenu/TitleFont.tres" type="DynamicFont" id=1]
-[ext_resource path="res://MainMenu/ButtonFont.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Fonts/ButtonFont.tres" type="DynamicFont" id=2]
+[ext_resource path="res://MainMenu/PlayButton.gd" type="Script" id=3]
 
 [node name="MainMenu" type="Control"]
 anchor_right = 1.0
@@ -11,9 +12,11 @@ __meta__ = {
 }
 
 [node name="RichTextLabel" type="Label" parent="."]
-margin_left = 2.82861
+anchor_left = 0.501
+anchor_right = 0.501
+margin_left = -959.091
 margin_top = 124.426
-margin_right = 1922.83
+margin_right = 960.91
 margin_bottom = 289.426
 custom_fonts/font = ExtResource( 1 )
 text = "The Scholar: Totally Sane Archeologist
@@ -24,8 +27,11 @@ __meta__ = {
 }
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -960.0
 margin_top = 254.0
-margin_right = 1922.0
+margin_right = 962.0
 margin_bottom = 1080.0
 __meta__ = {
 "_edit_use_anchors_": false
@@ -43,6 +49,7 @@ margin_bottom = 100.0
 rect_min_size = Vector2( 400, 100 )
 custom_fonts/font = ExtResource( 2 )
 text = "Play"
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -57,3 +64,4 @@ text = "Credits"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="pressed" from="CenterContainer/VBoxContainer/PlayButton" to="CenterContainer/VBoxContainer/PlayButton" method="_on_PlayButton_pressed"]

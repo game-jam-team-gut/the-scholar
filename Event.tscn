@@ -1,0 +1,106 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Fonts/SmallButtonFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://EventScreen/sample-background.png" type="Texture" id=2]
+[ext_resource path="res://EventScreen/OptionsFont.tres" type="DynamicFont" id=3]
+[ext_resource path="res://EventScreen/StoryFont.tres" type="DynamicFont" id=4]
+[ext_resource path="res://EventScreen/Event.gd" type="Script" id=5]
+
+[node name="Event" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -0.00280762
+margin_top = 0.210983
+margin_right = -0.00280762
+margin_bottom = 0.210938
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -960.0
+margin_top = 30.0
+margin_right = 960.0
+margin_bottom = 630.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer2"]
+margin_right = 1920.0
+margin_bottom = 400.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Image" type="TextureRect" parent="VBoxContainer2/CenterContainer"]
+margin_left = 460.0
+margin_right = 1460.0
+margin_bottom = 400.0
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="VBoxContainer2"]
+margin_top = 404.0
+margin_right = 1920.0
+margin_bottom = 548.0
+custom_fonts/font = ExtResource( 4 )
+text = "A cunning noblewoman named Gale seeks a company of adventurers to expose a corrupt aristocrat who serves Edith the Gargoyle Duchess. However, the party soon finds itself facing a moral quandry."
+autowrap = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -184.197
+margin_top = 31.5293
+margin_right = -32.1968
+margin_bottom = 109.529
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PauseButton" type="Button" parent="VBoxContainer"]
+margin_right = 152.0
+margin_bottom = 37.0
+custom_fonts/font = ExtResource( 1 )
+text = "Pause"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MainMenuButton" type="Button" parent="VBoxContainer"]
+margin_top = 41.0
+margin_right = 152.0
+margin_bottom = 78.0
+custom_fonts/font = ExtResource( 1 )
+text = "MainMenu"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionsContainer" type="VBoxContainer" parent="."]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = -380.0
+margin_bottom = -117.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OptionButton" type="Button" parent="OptionsContainer"]
+margin_right = 1920.0
+margin_bottom = 47.0
+custom_fonts/font = ExtResource( 3 )
+text = "One peek won't hurt anybody"
+
+[node name="OptionButton2" type="Button" parent="OptionsContainer"]
+margin_top = 51.0
+margin_right = 1920.0
+margin_bottom = 98.0
+custom_fonts/font = ExtResource( 3 )
+text = "Better not to disturb the cursed knowledge"
+[connection signal="pressed" from="VBoxContainer/MainMenuButton" to="." method="_on_MainMenuButton_pressed"]

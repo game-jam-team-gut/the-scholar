@@ -3,4 +3,4 @@ extends Button
 
 
 func _on_PlayButton_pressed():
-	get_tree().change_scene("res://Event.tscn")
+	get_tree().change_scene("res://Judge.tscn")

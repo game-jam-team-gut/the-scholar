@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/SanityVeryLow.ogg-f9ccf17a4dd71ffd1f03ca879d7d0037.oggstr"
+
+[deps]
+
+source_file="res://Judge/SanityVeryLow.ogg"
+dest_files=[ "res://.import/SanityVeryLow.ogg-f9ccf17a4dd71ffd1f03ca879d7d0037.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

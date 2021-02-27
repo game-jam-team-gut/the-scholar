@@ -34,3 +34,8 @@ func _on_OptionButton1_pressed():
 func _on_OptionButton2_pressed():
 	var btn = options_container.get_child(1)
 	emit_signal("event_ended", btn.mythical_knowledge_change, btn.health_change, btn.sanity_change)
+
+
+func _on_OptionButton3_pressed():
+	var btn = options_container.get_child(2)
+	emit_signal("event_ended", btn.mythical_knowledge_change, btn.health_change, btn.sanity_change)

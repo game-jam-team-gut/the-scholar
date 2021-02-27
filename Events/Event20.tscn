@@ -5,7 +5,7 @@
 [node name="Event" instance=ExtResource( 1 )]
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "On your path you find an [`d]accursed statue[`r] of monumental height. It seems to be broken, but at your first guess it seems to represent [`7]Dagon, The Great Old One[`r]."
+DIALOG = "On your path you find an [`d]accursed statue[`r] of monumental height. It seems to be broken, but at your first guess it seems to represent [`7]Dagon, The Great Old One[`r].[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I should make sure if it’s a statue of Dagon and study it."

@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "As you’ve exited the ruined garden you noticed a [`d]crowd of of village commons[`r] and on their necks… what could it be? [t2][^t]Gills?[^r] [*1]Away with such nonsense, these are people![*3] They might sell me some [`e]supplies[`r]."
+DIALOG = "As you’ve exited the ruined garden you noticed a [`d]crowd of of village commons[`r] and on their necks… what could it be? [t2][^t]Gills?[^r] [*1]Away with such nonsense, these are people![*3] They might sell me some [`e]supplies[`r].[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I can’t trust them."

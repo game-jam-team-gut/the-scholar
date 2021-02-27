@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "As you progress through the ruins, you start to notice [`d]starfish-shaped reliefs[`r] on the walls. Their craftsmanship is truly accursed. [t4][^t]Or is it?[^r] [t3]It might be just shadows meddling with your perspective."
+DIALOG = "As you progress through the ruins, you start to notice [`d]starfish-shaped reliefs[`r] on the walls. Their craftsmanship is truly accursed. [t4][^t]Or is it?[^r] [t3]It might be just shadows meddling with your perspective.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "These must be Elder Things’ doings! I must study them."

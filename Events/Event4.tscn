@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "Maybe there’s salvation on this Earth? As you’ve found yourself lost you’ve noticed a [`e]weirdly looking map[`r] in an unknown language scretched on the wall.[t3][*2] You might be able to decipher it…"
+DIALOG = "Maybe there’s salvation on this Earth? As you’ve found yourself lost you’ve noticed a [`e]weirdly looking map[`r] in an unknown language scretched on the wall.[t3][*2] You might be able to decipher it…[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*try to decipher the map*"

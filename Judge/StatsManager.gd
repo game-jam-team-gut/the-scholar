@@ -13,7 +13,7 @@ export var max_sanity = 100
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	current_mythical_knowledge = max_mythical_knowledge
+	current_mythical_knowledge = 0
 	current_health = max_health
 	current_sanity = max_sanity
 

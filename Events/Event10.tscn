@@ -12,10 +12,15 @@ texture = ExtResource( 2 )
 DIALOG = "Chanting. All you hear is chanting. Same uncanny words being repeated over in over. It’s not long before you notice a firelight gleaming in the distance."
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
+margin_right = 1553.0
 text = "Fellow scholars of the mythical knowledge! They might teach me something."
+mythical_knowledge_change = 20
+sanity_change = -10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
+margin_right = 1553.0
 text = "The chanting is primitive. Too primitive."
+sanity_change = 5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

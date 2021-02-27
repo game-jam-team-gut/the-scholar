@@ -9,9 +9,11 @@ DIALOG = "You fell the wrath of The Blind Idiot God, Nuclear Chaos, Daemon Sulta
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*get down and pray*"
+mythical_knowledge_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "*suffer the wrath*"
+health_change = -10
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

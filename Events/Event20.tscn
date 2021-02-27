@@ -9,9 +9,12 @@ DIALOG = "On your path you find an accursed statue of monumental height. It seem
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I should make sure if it’s a statue of Dagon and study it."
+mythical_knowledge_change = 10
+sanity_change = -10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I have no time for such nonsense, it’s just a guess."
+sanity_change = 5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

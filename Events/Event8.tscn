@@ -13,6 +13,8 @@ DIALOG = "You’re starting to hear some melody. What could it be? Viol perhaps?
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "Actually, let’s investigate."
+mythical_knowledge_change = 10
+sanity_change = -5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I need to go on."

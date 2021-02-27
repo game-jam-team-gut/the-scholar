@@ -16,6 +16,7 @@ script = ExtResource( 2 )
 
 [node name="AmbientMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
+autoplay = true
 
 [node name="HealthLow" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )

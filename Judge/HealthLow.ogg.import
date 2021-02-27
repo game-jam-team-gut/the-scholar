@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/HealthLow.ogg-fcafbaf7eb0fd465fa5b80c467804c55.oggstr"
+
+[deps]
+
+source_file="res://Judge/HealthLow.ogg"
+dest_files=[ "res://.import/HealthLow.ogg-fcafbaf7eb0fd465fa5b80c467804c55.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

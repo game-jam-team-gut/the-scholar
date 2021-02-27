@@ -37,4 +37,5 @@ enabled=PoolStringArray( "SyndiBox" )
 
 [rendering]
 
+environment/default_clear_color=Color( 0.0823529, 0.0823529, 0.14902, 1 )
 environment/default_environment="res://default_env.tres"

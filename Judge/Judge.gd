@@ -20,7 +20,7 @@ func _ready():
 	events_array.remove(event_number)
 	event_instance.connect("event_ended", self, "end_event")
 	current_event_instance = event_instance
-	current_event_instance.set_stats(stats_manager.max_mythical_knowledge, stats_manager.max_health, stats_manager.max_sanity)
+	current_event_instance.set_stats(0, stats_manager.max_health, stats_manager.max_sanity)
 
 func end_event(mythical_knowledge_change, health_change, sanity_change):
 	#change stats

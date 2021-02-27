@@ -1,9 +1,9 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Autoloads/rain.ogg" type="AudioStream" id=1]
+[ext_resource path="res://Autoloads/Ambient/AmbientRain.ogg" type="AudioStream" id=1]
 
 [node name="Node" type="Node"]
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="AmbientRain" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 1 )
 autoplay = true

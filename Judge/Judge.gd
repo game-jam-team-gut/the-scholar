@@ -31,6 +31,7 @@ func end_event(mythical_knowledge_change, health_change, sanity_change):
 	remove_child(current_event_instance)
 	current_event_instance.queue_free()
 	#todo end_event with some animation
+	checkHealth()
 	next_event()
 
 func next_event():
@@ -45,7 +46,23 @@ func next_event():
 		current_event_instance.set_stats(stats_manager.current_mythical_knowledge, stats_manager.current_health, stats_manager.current_sanity)
 	else:
 		print("All events passed")
-
+	
 func _process(delta):
 	pass
 	
+func checkHealth():
+	if stats_manager.current_health > 0 and stats_manager.current_health <= 25:
+		if $HealthLow.is_playing() == true:
+			$HealthLow.stop()
+		if $HealthVeryLow.is_playing() == false:
+			$HealthVeryLow.play()
+	elif stats_manager.current_health > 25  and stats_manager.current_health <= 50:
+		if $HealthLow.is_playing() == false:
+			$HealthLow.play()
+		if $HealthVeryLow.is_playing() == true:
+			$HealthVeryLow.stop()
+	elif stats_manager.current_health > 50  and stats_manager.current_health <= 100 :
+		if $HealthLow.is_playing() == true:
+			$HealthLow.stop()
+		if $HealthVeryLow.is_playing() == true:
+			$HealthVeryLow.stop()

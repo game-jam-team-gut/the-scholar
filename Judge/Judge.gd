@@ -76,7 +76,7 @@ func checkSanity():
 			$SanityVeryLow.play()
 	elif stats_manager.current_sanity > 25  and stats_manager.current_sanity <= 50:
 		if $SanityLow.is_playing() == false:
-			$HSanityLow.play()
+			$SanityLow.play()
 		if $SanityVeryLow.is_playing() == true:
 			$SanityVeryLow.stop()
 	elif stats_manager.current_sanity > 50  and stats_manager.current_sanity <= 100 :

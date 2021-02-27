@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Fonts/SmallButtonFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://EventScreen/sample-background.png" type="Texture" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://EventScreen/Event.gd" type="Script" id=5]
 [ext_resource path="res://EventScreen/OptionButton.gd" type="Script" id=6]
 [ext_resource path="res://addons/SyndiBox/syndibox.gd" type="Script" id=7]
+[ext_resource path="res://EventScreen/OptionsContainer.gd" type="Script" id=8]
 
 [node name="Event" type="Control"]
 anchor_right = 1.0
@@ -52,7 +53,7 @@ margin_right = 1440.0
 margin_bottom = 724.0
 rect_min_size = Vector2( 0, 320 )
 script = ExtResource( 7 )
-DIALOG = "A cunning  [`c] [^d]noblewoman named Gale [`r][^r]seeks a company of adventurers to expose a corrupt aristocrat who serves Edith the Gargoyle Duchess. However, the party soon finds itself facing a moral quandry."
+DIALOG = "A cunning  [`c] [^d]noblewoman named Gale [`r][^r]seeks a company of adventurers to expose a corrupt aristocrat who serves Edith the Gargoyle Duchess. However, the party soon finds itself facing a moral quandry.[@end]"
 FONT = "res://EventScreen/StoryFont.tres"
 CUSTOM_EFFECTS = "res://addons/SyndiBox/custom.gd"
 
@@ -95,6 +96,7 @@ margin_left = 240.0
 margin_top = -316.0
 margin_right = -240.0
 margin_bottom = -90.0
+script = ExtResource( 8 )
 __meta__ = {
 "_edit_lock_": true,
 "_edit_use_anchors_": false
@@ -223,6 +225,7 @@ text = "10"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="signal_tag" from="VBoxContainer2/SyndiBox" to="OptionsContainer" method="_on_SyndiBox_signal_tag"]
 [connection signal="pressed" from="VBoxContainer/ExitButton" to="." method="_on_ExitButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/MainMenuButton" to="." method="_on_MainMenuButton_pressed"]
 [connection signal="pressed" from="OptionsContainer/OptionButton" to="." method="_on_OptionButton1_pressed"]

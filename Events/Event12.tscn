@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "There’s a hideous [`4]statuette[`r] sitting in the corner of the room you’ve jest entered. At second glance it does start to remind you of the one who slumbers. Now, it is up to you whether you take this [`4][^v]blasphemous artifact[`r][^r] into possession or not."
+DIALOG = "There’s a hideous [`4]statuette[`r] sitting in the corner of the room you’ve jest entered. At second glance it does start to remind you of the one who slumbers. Now, it is up to you whether you take this [`4][^v]blasphemous artifact[`r][^r] into possession or not.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*take it*"

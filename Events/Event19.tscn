@@ -5,7 +5,7 @@
 [node name="Event" instance=ExtResource( 1 )]
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "[`4][^v]\"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn\".[`r][^r] [t2]It’s all you need to hear to know that worshippers of The Sleeping God are near. You take caution, but what if they could welcome you to the cult and share the mythical [`6]knowledge[`r] passed by Him Who Lies Dreaming?"
+DIALOG = "[`4][^v]\"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn\".[`r][^r] [t2]It’s all you need to hear to know that worshippers of The Sleeping God are near. You take caution, but what if they could welcome you to the cult and share the mythical [`6]knowledge[`r] passed by Him Who Lies Dreaming?[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I can try to reason with them."

@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "At the end of the hall you’ve noticed a few decently sized drops of [`2]slime[`r]. Truth be told, the ruins are located by the sea, but no sea life would go as far as you stand on the land. [t6][^t]Right?"
+DIALOG = "At the end of the hall you’ve noticed a few decently sized drops of [`2]slime[`r]. Truth be told, the ruins are located by the sea, but no sea life would go as far as you stand on the land. [t6][^t]Right?[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "There’s some sea life I would prefer not to know of."

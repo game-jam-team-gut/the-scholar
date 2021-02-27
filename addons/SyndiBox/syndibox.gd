@@ -851,7 +851,7 @@ func _input(event): # Called on input
 				#at this point, the dialog box has fully served its purpose
 				emit_signal("text_finished")
 				emit_signal("section_finished", cur_set)
-				hide()
+				#hide()
 			# ...then if there are more strings in the dialog...
 			else:
 				# For every character that has been printed...

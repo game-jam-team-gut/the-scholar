@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "As you were starting to get hungry, you found yourself in a room filled with a [^t] curious smell[^r]. A table full of freshly cooked food showed up and the candles sitting on its top started to part out the dark."
+DIALOG = "As you were starting to get hungry, you found yourself in a room filled with a [^t] curious smell[^r]. A table full of freshly cooked food showed up and the candles sitting on its top started to part out the dark.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*sit at the table and feast*"

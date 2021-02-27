@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "In the main hall there’s a [`6][^t]grand fireplace[^r][`r]. You could swear that there was still something smoldering in the ash as you’ve entered the room. Whatever it was, [t2]you think it’s gone…"
+DIALOG = "In the main hall there’s a [`6][^t]grand fireplace[^r][`r]. You could swear that there was still something smoldering in the ash as you’ve entered the room. Whatever it was, [t2]you think it’s gone…[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*get rid of the ash*"

@@ -16,6 +16,8 @@ text = "I can’t trust them."
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "Let’s go get some supplies."
+mythical_knowledge_change = 5
+health_change = 10
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

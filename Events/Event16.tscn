@@ -13,9 +13,11 @@ DIALOG = "In the main hall there’s a grand fireplace. You could swear that the
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*get rid of the ash*"
+mythical_knowledge_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "*don’t mind the ash*"
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false
+sanity_change = -5

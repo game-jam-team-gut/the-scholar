@@ -13,6 +13,7 @@ DIALOG = "At the end of the hall you’ve noticed a few decently sized drops of 
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "There’s some sea life I would prefer not to know of."
+sanity_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "It’s nothing."

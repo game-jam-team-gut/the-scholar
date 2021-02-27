@@ -16,6 +16,7 @@ text = "Nothing to see here, let’s go."
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I should check the walls just to be sure."
+sanity_change = -5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

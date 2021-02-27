@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You’ve found a backpack with mysterious content. There’s some food and water, yes, but also an odd looking ball. One would not be able to describe its colour if he could. It’s not like anything you’ve ever seen before."
+DIALOG = "You’ve found a [`e]backpack[`r] with [`d][^d]mysterious[^r][`r] content. There’s some food and water, yes[t3], but also an odd looking [`d][^d]ball[^r][`r]. One would not be able to describe its colour if he could. It’s not like anything you’ve ever seen before."
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*take the backpack with you*"

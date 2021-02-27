@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You’re outside. You’re beginning to hear some buzzy sound. There are blasphemous stories of Mi-go that you would rather not remember, as they’re stopping you from pursuing further into the ruins. In spite of all, these could be just some bugs."
+DIALOG = "You’re [`b]outside[`r]. You’re beginning to hear some [^v]buzzy sound[^r]. There are [`4]blasphemous[`r] stories of Mi-go that you would rather not remember, as they’re stopping you from pursuing further into the ruins.[t4] In spite of all, these could be just some bugs."
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*go a different way*"

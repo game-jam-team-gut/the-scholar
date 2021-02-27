@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://MainMenu/TitleFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://CreditsScreen/MainMenuButton.gd" type="Script" id=2]
 [ext_resource path="res://CreditsScreen/ExitButton.gd" type="Script" id=3]
 [ext_resource path="res://Fonts/SmallButtonFont.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Judge/Knowledge.tres" type="AudioStream" id=5]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -73,5 +74,9 @@ script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
 [connection signal="pressed" from="VBoxContainer/ExitButton" to="VBoxContainer/ExitButton" method="_on_ExitButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/MainMenuButton" to="VBoxContainer/MainMenuButton" method="_on_MainMenuButton_pressed"]

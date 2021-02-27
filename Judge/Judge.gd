@@ -32,6 +32,7 @@ func end_event(mythical_knowledge_change, health_change, sanity_change):
 	current_event_instance.queue_free()
 	#todo end_event with some animation
 	checkHealth()
+	checkSanity()
 	next_event()
 
 func next_event():
@@ -66,3 +67,20 @@ func checkHealth():
 			$HealthLow.stop()
 		if $HealthVeryLow.is_playing() == true:
 			$HealthVeryLow.stop()
+	
+func checkSanity():
+	if stats_manager.current_sanity > 0 and stats_manager.current_sanity <= 25:
+		if $SanityLow.is_playing() == true:
+			$SanityLow.stop()
+		if $SanityVeryLow.is_playing() == false:
+			$SanityVeryLow.play()
+	elif stats_manager.current_sanity > 25  and stats_manager.current_sanity <= 50:
+		if $Sanityow.is_playing() == false:
+			$HSanityLow.play()
+		if $SanityVeryLow.is_playing() == true:
+			$SanityVeryLow.stop()
+	elif stats_manager.current_sanity > 50  and stats_manager.current_sanity <= 100 :
+		if $SanityLow.is_playing() == true:
+			$Sanityow.stop()
+		if $SanityVeryLow.is_playing() == true:
+			$SanityeryLow.stop()

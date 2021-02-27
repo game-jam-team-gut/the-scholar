@@ -13,22 +13,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="CenterContainer" type="CenterContainer" parent="."]
-margin_left = 960.0
-margin_top = 540.0
-margin_right = 1521.0
-margin_bottom = 643.0
-use_top_left = true
-__meta__ = {
-"_edit_lock_": true,
-"_edit_use_anchors_": false
-}
-
-[node name="Label" type="Label" parent="CenterContainer"]
-margin_left = -689.0
-margin_top = -317.0
-margin_right = 689.0
-margin_bottom = 316.0
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -602.5
+margin_top = -277.5
+margin_right = 602.5
+margin_bottom = 277.5
 custom_fonts/font = ExtResource( 1 )
 text = "“It is good to be a cynic —
 it is better to be a contented cat —

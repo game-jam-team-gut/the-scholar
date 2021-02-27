@@ -2,7 +2,8 @@ extends Node
 
 onready var stats_manager = get_node("StatsManager")
 
-var events_array = ["res://Events/Event1.tscn", "res://Events/Event2.tscn", "res://Events/Event3.tscn"] #todo add more events
+var events_array = ['res://Events/Event1.tscn', 'res://Events/Event2.tscn', 'res://Events/Event3.tscn', 'res://Events/Event4.tscn', 'res://Events/Event5.tscn', 'res://Events/Event6.tscn', 'res://Events/Event7.tscn', 'res://Events/Event8.tscn', 'res://Events/Event9.tscn', 'res://Events/Event10.tscn', 'res://Events/Event11.tscn', 'res://Events/Event12.tscn', 'res://Events/Event13.tscn', 'res://Events/Event14.tscn', 'res://Events/Event15.tscn', 'res://Events/Event16.tscn', 'res://Events/Event17.tscn', 'res://Events/Event18.tscn', 'res://Events/Event19.tscn', 'res://Events/Event20.tscn']
+
 var current_event_instance
 
 func event_randomizer():

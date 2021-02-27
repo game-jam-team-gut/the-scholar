@@ -1,8 +1,7 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Judge/Judge.gd" type="Script" id=1]
 [ext_resource path="res://Judge/StatsManager.gd" type="Script" id=2]
-[ext_resource path="res://Judge/AmbientMusic.ogg" type="AudioStream" id=3]
 [ext_resource path="res://Judge/HealthLow.ogg" type="AudioStream" id=4]
 [ext_resource path="res://Judge/HealthVeryLow.ogg" type="AudioStream" id=5]
 [ext_resource path="res://Judge/SanityVeryLow.ogg" type="AudioStream" id=6]
@@ -13,10 +12,6 @@ script = ExtResource( 1 )
 
 [node name="StatsManager" type="Node" parent="."]
 script = ExtResource( 2 )
-
-[node name="AmbientMusic" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 3 )
-autoplay = true
 
 [node name="HealthLow" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )

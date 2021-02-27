@@ -112,7 +112,14 @@ margin_bottom = 98.0
 custom_fonts/font = ExtResource( 3 )
 text = "Better not to disturb the cursed knowledge"
 script = ExtResource( 6 )
-sanity_change = -5
+
+[node name="OptionButton3" type="Button" parent="OptionsContainer"]
+margin_top = 102.0
+margin_right = 1920.0
+margin_bottom = 149.0
+custom_fonts/font = ExtResource( 3 )
+text = "Third option"
+script = ExtResource( 6 )
 
 [node name="CenterContainer" type="CenterContainer" parent="."]
 margin_top = 920.0
@@ -214,3 +221,4 @@ __meta__ = {
 [connection signal="pressed" from="VBoxContainer/MainMenuButton" to="." method="_on_MainMenuButton_pressed"]
 [connection signal="pressed" from="OptionsContainer/OptionButton" to="." method="_on_OptionButton1_pressed"]
 [connection signal="pressed" from="OptionsContainer/OptionButton2" to="." method="_on_OptionButton2_pressed"]
+[connection signal="pressed" from="OptionsContainer/OptionButton3" to="." method="_on_OptionButton3_pressed"]

@@ -13,12 +13,12 @@ func _ready():
 	#events_array.remove(0)
 	event_instance.connect("event_ended", self, "end_event")
 	current_event_instance = event_instance
-	current_event_instance.set_stats(stats_manager.max_secret_knowledge, stats_manager.max_life, stats_manager.max_sanity)
+	current_event_instance.set_stats(stats_manager.max_mythical_knowledge, stats_manager.max_health, stats_manager.max_sanity)
 
-func end_event(secret_knowledge_change, life_change, sanity_change):
+func end_event(mythical_knowledge_change, health_change, sanity_change):
 	#change stats
-	stats_manager.current_secret_knowledge += secret_knowledge_change
-	stats_manager.current_life += life_change
+	stats_manager.current_mythical_knowledge += mythical_knowledge_change
+	stats_manager.current_health += health_change
 	stats_manager.current_sanity += sanity_change
 	
 	remove_child(current_event_instance)
@@ -34,7 +34,7 @@ func next_event():
 	#events_array.remove(0)
 	event_instance.connect("event_ended", self, "end_event")
 	current_event_instance = event_instance
-	current_event_instance.set_stats(stats_manager.current_secret_knowledge, stats_manager.current_life, stats_manager.current_sanity)
+	current_event_instance.set_stats(stats_manager.current_mythical_knowledge, stats_manager.current_health, stats_manager.current_sanity)
 
 func _process(delta):
 	pass

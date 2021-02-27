@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You’re starting to hear some melody. What could it be? Viol perhaps? No, there’s no reason why anyone would play music in here. If anything’s playing it is wind playing with my crumbling mind."
+DIALOG = "You’re starting to hear [`b][^d]some melody[`r][^r]. [t3]What could it be? Viol perhaps?[t3] No, there’s no reason why anyone would play music in here. If anything’s playing it is [^d]wind[^r] playing with my crumbling mind."
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "Actually, let’s investigate."

@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "Never in your lifetime you would have thought that Nyarlathotep, The Crawling Chaos, The God of a Thousand Forms, The Dark One would meet you. And yet, here he stands in his most singularly unnerving form. He’s whispering to you something…"
+DIALOG = "Never in your lifetime you would have thought that [*2][`7]Nyarlathotep[t3][`r], [`7]The Crawling Chaos[`r][t3], [`7]The God of a Thousand Forms[`r][t3], [`7]The Dark One[`r][*3] would meet you. And yet, here he stands in his most singularly unnerving form. He’s [^v]whispering[^r] to you something…"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "Listen."

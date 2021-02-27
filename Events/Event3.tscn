@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You’ve heard some weird noise coming from the corridor right beside. You know of the stories about Shoggoths scrambling around this old-wretched place."
+DIALOG = "You’ve heard some [^v]weird noise[^r] coming from the corridor right beside. You know of the stories about [^v][`4][*2]Shoggoths[`r][^r] [*3]scrambling around this old-wretched place."
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "Shoggoths or not, I need to go through this corridor."

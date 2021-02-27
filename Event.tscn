@@ -55,6 +55,7 @@ rect_min_size = Vector2( 0, 320 )
 script = ExtResource( 7 )
 DIALOG = "A cunning  [`c] [^d]noblewoman named Gale [`r][^r]seeks a company of adventurers to expose a corrupt aristocrat who serves Edith the Gargoyle Duchess. However, the party soon finds itself facing a moral quandry.[@end]"
 FONT = "res://EventScreen/StoryFont.tres"
+ADVANCE_ACTION = ""
 CUSTOM_EFFECTS = "res://addons/SyndiBox/custom.gd"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]

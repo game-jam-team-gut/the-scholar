@@ -141,6 +141,8 @@ margin_top = 75.0
 margin_right = 1174.0
 margin_bottom = 75.0
 __meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
 

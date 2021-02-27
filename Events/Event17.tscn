@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "As you go further into the darkness you start to hear a group of cultists. From what the’re chanting you can make up:  Y'AI'NG'NGAH,  YOG-SOTHOTH…"
+DIALOG = "As you go further into the darkness you start to hear a[`4] [^t]group of cultists[^r][`r]. From what the’re chanting you can make up:  [`4][^t]Y'AI'NG'NGAH,  YOG-SOTHOTH…[`r][^r]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*let them finish the incantations*"

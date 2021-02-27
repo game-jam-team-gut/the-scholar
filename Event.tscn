@@ -133,13 +133,17 @@ __meta__ = {
 }
 
 [node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer"]
-margin_right = 8.0
+margin_left = 266.0
+margin_top = 75.0
+margin_right = 1174.0
+margin_bottom = 75.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="MK" type="Control" parent="CenterContainer/HBoxContainer"]
-margin_right = 480.0
+margin_right = 300.0
+rect_min_size = Vector2( 300, 0 )
 
 [node name="Label" type="Label" parent="CenterContainer/HBoxContainer/MK"]
 margin_right = 345.0
@@ -164,8 +168,9 @@ __meta__ = {
 }
 
 [node name="Health" type="Control" parent="CenterContainer/HBoxContainer"]
-margin_left = 480.0
-margin_right = 480.0
+margin_left = 304.0
+margin_right = 604.0
+rect_min_size = Vector2( 300, 0 )
 
 [node name="Label" type="Label" parent="CenterContainer/HBoxContainer/Health"]
 margin_right = 240.0
@@ -189,8 +194,9 @@ __meta__ = {
 }
 
 [node name="Sanity" type="Control" parent="CenterContainer/HBoxContainer"]
-margin_left = 960.0
-margin_right = 960.0
+margin_left = 608.0
+margin_right = 908.0
+rect_min_size = Vector2( 300, 0 )
 
 [node name="Label" type="Label" parent="CenterContainer/HBoxContainer/Sanity"]
 margin_right = 240.0

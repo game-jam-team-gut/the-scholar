@@ -19,6 +19,10 @@ config/name="The Scholar: Totally Sane Archeologist"
 run/main_scene="res://MainMenu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Ambient="*res://Autoloads/Ambient.tscn"
+
 [display]
 
 window/size/width=1920

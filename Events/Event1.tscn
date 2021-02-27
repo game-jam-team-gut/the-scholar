@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You’ve found a peculiarly looking tome. Albeit it might have features of a catalyst that could end your journey, it does also encourage you with an utmost vivid aura to read some of its cursed verses. Could it be THE book?"
+DIALOG = "You’ve found a [`c]peculiarly looking tome[`r]. [t5] Albeit it might have features of a catalyst that could end your journey, it does also encourage you with an utmost [`d][^t]vivid aura[^r][`r] to read some of its cursed verses. [t2]Could it be[t7] [*1] [`c][^v]THE book[^r][`r]?"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "One peek won’t hurt anybody."

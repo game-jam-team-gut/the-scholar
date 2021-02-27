@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "Chanting. All you hear is chanting. Same uncanny words being repeated over in over. It’s not long before you notice a firelight gleaming in the distance."
+DIALOG = "[^d]Chanting[^r]. All you hear is [^d]chanting[^r]. Same uncanny words being repeated over in over. It’s not long before you notice a [`6]firelight gleaming[`r] in the distance."
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 margin_right = 1553.0

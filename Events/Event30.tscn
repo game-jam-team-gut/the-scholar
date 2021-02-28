@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "On your way you find a human corpse. Upon closer inspection you notice gills on its neck and squamous places on its exposed parts. The being died not long ago, so you’re not sure if it’s safe to study it.[@end]"
+DIALOG = "On your way you find a human corpse. Upon closer inspection you notice [`2]gills[`r] on its neck and [`2][^d]squamous places[^r][`r] on its exposed parts. The being died not long ago, so you’re not sure if it’s safe to study it.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*study the corpse*"

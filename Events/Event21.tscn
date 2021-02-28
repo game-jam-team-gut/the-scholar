@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "Some of the loathsome structures you have just encountered remind you of stories about cyclopean city of R'lyeh, but what would non-Euclidean buildings from The Sunken City do in here? I might get lost if I venture too far…[@end]"
+DIALOG = "Some of the [^v]loathsome[^r] structures you have just encountered remind you of stories about [`4]cyclopean city of R'lyeh[`r], but what would non-Euclidean buildings from The Sunken City do in here? [t4]I might get lost if I venture too far…[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "There’s so much I can learn!"

@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "On the abnormally high ceiling of the room you’re inside of you notice bats in unutterable numbers. One false move could send this accursed cluster of noisome pest after you, sending your mortal self into oblivion.[@end]"
+DIALOG = "You notice [^v][`c]bats in unutterable numbers[`r][^r] on the abnormally high ceiling of the room you’re inside of. One false move could send this accursed cluster of noisome pest after you, sending your mortal self into oblivion.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I should proceed with caution."

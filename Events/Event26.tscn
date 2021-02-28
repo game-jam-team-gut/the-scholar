@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "On the floor you find a circle of gouged out symbols representing eldritch beings, some of which are unknown to you. It might be worth studying them, but standing in the circle fills your mind with blasphemous thoughts…[@end]"
+DIALOG = "On the floor you find a [`7]circle of gouged out symbols representing eldritch beings[`r], some of which are unknown to you. It might be worth studying them, but standing in the circle fills your mind with [^v][`4]blasphemous thoughts…[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I don’t need to worry about my sanity."

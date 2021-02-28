@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Fonts/SmallButtonFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://CreditsScreen/MenuButton.gd" type="Script" id=2]
 [ext_resource path="res://CreditsScreen/ExitButton.gd" type="Script" id=3]
 [ext_resource path="res://Menu/ButtonHoverPressed.tres" type="StyleBox" id=4]
 [ext_resource path="res://Menu/ButtonNormal.tres" type="StyleBox" id=5]
+[ext_resource path="res://Menu/TitleFont.tres" type="DynamicFont" id=6]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -51,5 +52,15 @@ script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Label" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+rect_min_size = Vector2( 1920, 1080 )
+custom_fonts/font = ExtResource( 6 )
+text = "Game Made By
+Mateusz Grzonka and Filip Szweda"
+align = 1
+valign = 1
 [connection signal="pressed" from="VBoxContainer/ExitButton" to="VBoxContainer/ExitButton" method="_on_ExitButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/MenuButton" to="VBoxContainer/MenuButton" method="_on_MenuButton_pressed"]

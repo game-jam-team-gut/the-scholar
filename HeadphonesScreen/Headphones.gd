@@ -26,7 +26,7 @@ func _ready():
 			)
 	alpha_tween.start()
 	yield(get_tree().create_timer(1), "timeout")
-	get_tree().change_scene("res://MainMenu.tscn")
+	get_tree().change_scene("res://Menu.tscn")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):

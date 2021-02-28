@@ -5,7 +5,7 @@
 [ext_resource path="res://MainMenu/PlayButton.gd" type="Script" id=3]
 [ext_resource path="res://MainMenu/ExitButton.gd" type="Script" id=4]
 [ext_resource path="res://MainMenu/CreditsButton.gd" type="Script" id=5]
-[ext_resource path="res://MainMenu/ruins_placeholder.jpg" type="Texture" id=6]
+[ext_resource path="res://MainMenu/menu.png" type="Texture" id=6]
 
 [node name="MainMenu" type="Control"]
 anchor_right = 1.0
@@ -36,7 +36,7 @@ margin_top = 124.426
 margin_right = 960.91
 margin_bottom = 289.426
 custom_fonts/font = ExtResource( 1 )
-text = "The Scholar: A Totally Sane Archeologist
+text = "The Scholar
 "
 align = 1
 __meta__ = {

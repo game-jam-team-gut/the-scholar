@@ -80,17 +80,17 @@ func checkSanity():
 			$SanityeryLow.stop()
 
 func checkGameOver():
-	if len(events_array) > 0:
-		if stats_manager.current_sanity <= 0:
-			get_tree().change_scene("res://Madness.tscn")
-		elif stats_manager.current_health <= 0:
-			get_tree().change_scene("res://Death.tscn")
-		elif stats_manager.current_mythical_knowledge >= 100:
-			get_tree().change_scene("res://Knowledge.tscn")
-		else:
-			next_event()
+	if stats_manager.current_sanity <= 0:
+		get_tree().change_scene("res://Madness.tscn")
+	elif stats_manager.current_health <= 0:
+		get_tree().change_scene("res://Death.tscn")
+	elif stats_manager.current_mythical_knowledge >= 100:
+		get_tree().change_scene("res://Knowledge.tscn")
 	else:
-		get_tree().change_scene("res://Ignorance.tscn")
+		if len(events_array) > 0:
+			next_event()
+		else:
+			get_tree().change_scene("res://Ignorance.tscn")
 
 func changeStats(mythical_knowledge_change, health_change, sanity_change):
 	if stats_manager.current_mythical_knowledge + mythical_knowledge_change >= 0:

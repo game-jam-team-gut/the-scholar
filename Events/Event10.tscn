@@ -12,12 +12,12 @@ texture = ExtResource( 2 )
 DIALOG = "[^d]Chanting[^r]. All you hear is [^d]chanting[^r]. Same uncanny words being repeated over in over. It’s not long before you notice a [`6]firelight gleaming[`r] in the distance.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
-margin_right = 1553.0
+margin_right = 1545.0
 text = "Fellow scholars of the mythical knowledge! They might teach me something."
 health_change = -20
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
-margin_right = 1553.0
+margin_right = 1545.0
 text = "The chanting is primitive. Too primitive."
 sanity_change = 5
 

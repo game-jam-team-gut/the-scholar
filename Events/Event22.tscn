@@ -5,7 +5,7 @@
 [node name="Event" instance=ExtResource( 1 )]
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You hear howling. As you progress through these ancient ruins it only gets louder and louder. You think it might be doing of some animal, but you hardly ever saw anything of life in this wretched and nameless place."
+DIALOG = "You hear howling. As you progress through these ancient ruins it only gets louder and louder. You think it might be doing of some animal, but you hardly ever saw anything of life in this wretched and nameless place.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "It’s just a lone wolf, I am safe."

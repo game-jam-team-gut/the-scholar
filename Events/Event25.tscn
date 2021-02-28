@@ -5,7 +5,7 @@
 [node name="Event" instance=ExtResource( 1 )]
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You find yourself in a room filled with odd-looking sculptures presenting winged beasts with starfish shaped heads. The room is well-preserved and serves as a great vantage point for the surrounding area."
+DIALOG = "You find yourself in a room filled with odd-looking sculptures presenting winged beasts with starfish shaped heads. The room is well-preserved and serves as a great vantage point for the surrounding area.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "It’s safe to rest here."

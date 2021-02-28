@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ruins_placeholder.jpg-d35ed4bb12dae1b653e0640b6a729edb.stex"
+path="res://.import/menu.png-fc6a6c1ef813447ac0defc1e7d2d28b6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://MainMenu/ruins_placeholder.jpg"
-dest_files=[ "res://.import/ruins_placeholder.jpg-d35ed4bb12dae1b653e0640b6a729edb.stex" ]
+source_file="res://Menu/menu.png"
+dest_files=[ "res://.import/menu.png-fc6a6c1ef813447ac0defc1e7d2d28b6.stex" ]
 
 [params]
 

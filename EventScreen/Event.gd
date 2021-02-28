@@ -22,8 +22,8 @@ func _ready():
 func _on_ExitButton_pressed():
 	get_tree().quit()
 
-func _on_MainMenuButton_pressed():
-	get_tree().change_scene("res://MainMenu.tscn")
+func _on_MenuButton_pressed():
+	get_tree().change_scene("res://Menu.tscn")
 
 
 func _on_OptionButton1_pressed():

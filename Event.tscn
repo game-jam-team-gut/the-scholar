@@ -8,8 +8,8 @@
 [ext_resource path="res://EventScreen/OptionButton.gd" type="Script" id=6]
 [ext_resource path="res://addons/SyndiBox/syndibox.gd" type="Script" id=7]
 [ext_resource path="res://EventScreen/OptionsContainer.gd" type="Script" id=8]
-[ext_resource path="res://MainMenu/ButtonHoverPressed.tres" type="StyleBox" id=9]
-[ext_resource path="res://MainMenu/ButtonNormal.tres" type="StyleBox" id=10]
+[ext_resource path="res://Menu/ButtonHoverPressed.tres" type="StyleBox" id=9]
+[ext_resource path="res://Menu/ButtonNormal.tres" type="StyleBox" id=10]
 
 [node name="Event" type="Control"]
 anchor_right = 1.0
@@ -73,7 +73,7 @@ __meta__ = {
 }
 
 [node name="ExitButton" type="Button" parent="VBoxContainer"]
-margin_right = 170.0
+margin_right = 152.0
 margin_bottom = 43.0
 custom_styles/hover = ExtResource( 9 )
 custom_styles/pressed = ExtResource( 9 )
@@ -84,15 +84,15 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="MainMenuButton" type="Button" parent="VBoxContainer"]
+[node name="MenuButton" type="Button" parent="VBoxContainer"]
 margin_top = 47.0
-margin_right = 170.0
+margin_right = 152.0
 margin_bottom = 90.0
 custom_styles/hover = ExtResource( 9 )
 custom_styles/pressed = ExtResource( 9 )
 custom_styles/normal = ExtResource( 10 )
 custom_fonts/font = ExtResource( 1 )
-text = "MainMenu"
+text = "Menu"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -245,7 +245,7 @@ __meta__ = {
 }
 [connection signal="signal_tag" from="VBoxContainer2/SyndiBox" to="OptionsContainer" method="_on_SyndiBox_signal_tag"]
 [connection signal="pressed" from="VBoxContainer/ExitButton" to="." method="_on_ExitButton_pressed"]
-[connection signal="pressed" from="VBoxContainer/MainMenuButton" to="." method="_on_MainMenuButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/MenuButton" to="." method="_on_MenuButton_pressed"]
 [connection signal="pressed" from="OptionsContainer/OptionButton" to="." method="_on_OptionButton1_pressed"]
 [connection signal="pressed" from="OptionsContainer/OptionButton2" to="." method="_on_OptionButton2_pressed"]
 [connection signal="pressed" from="OptionsContainer/OptionButton3" to="." method="_on_OptionButton3_pressed"]

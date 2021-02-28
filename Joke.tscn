@@ -4,9 +4,10 @@
 [ext_resource path="res://CreditsScreen/MenuButton.gd" type="Script" id=2]
 [ext_resource path="res://CreditsScreen/ExitButton.gd" type="Script" id=3]
 [ext_resource path="res://Fonts/SmallButtonFont.tres" type="DynamicFont" id=4]
-[ext_resource path="res://Judge/Knowledge.tres" type="AudioStream" id=5]
+[ext_resource path="res://Judge/Joke.tres" type="AudioStream" id=5]
 [ext_resource path="res://Menu/ButtonHoverPressed.tres" type="StyleBox" id=6]
 [ext_resource path="res://Menu/ButtonNormal.tres" type="StyleBox" id=7]
+
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -20,18 +21,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -728.0
-margin_top = -324.0
-margin_right = 728.0
-margin_bottom = 324.0
+margin_left = -486.0
+margin_top = -231.0
+margin_right = 486.0
+margin_bottom = 231.0
 custom_fonts/font = ExtResource( 1 )
-text = "“I have seen the dark universe yawning
-Where the black planets roll without aim,
-Where they roll in their horror unheeded,
-Without knowledge, or lustre, or name.”
-— H. P. Lovecraft
+text = "“The world is indeed comic,
+but the joke is on mankind.”
+― H. P. Lovecraft
 
-You are The Scholar."
+You are The Mad Scholar."
 __meta__ = {
 "_edit_use_anchors_": false
 }

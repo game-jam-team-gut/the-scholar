@@ -80,10 +80,13 @@ func checkSanity():
 			$SanityeryLow.stop()
 
 func checkGameOver():
-	if stats_manager.current_sanity <= 0:
-		get_tree().change_scene("res://Madness.tscn")
-	elif stats_manager.current_health <= 0:
+	if stats_manager.current_health <= 0:
 		get_tree().change_scene("res://Death.tscn")
+	elif stats_manager.current_sanity <= 0:
+		if stats_manager.current_mythical_knowledge >= 100:
+			get_tree().change_scene("res://Joke.tscn")
+		else:
+			get_tree().change_scene("res://Madness.tscn")
 	elif stats_manager.current_mythical_knowledge >= 100:
 		get_tree().change_scene("res://Knowledge.tscn")
 	else:

@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You are standing at the crossroads. At your left, an alley lit in the moonlight. At your right, a dark and spectral in its look chapel dedicated to some unnamed being.[@end]"
+DIALOG = "You are standing at the crossroads. At your left, [`b]an alley lit in the moonlight[`r]. At your right, a [`7]dark and spectral in its look chapel[`r] dedicated to some [^v]unnamed being[^r].[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*go left*"

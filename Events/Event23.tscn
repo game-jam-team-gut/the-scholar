@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "You are outside. Moonlight fades gently on the ground revealing a circle of mushrooms on your path. To your knowledge they seem harmless, but their phantasmagorical glow is otherworldly.[@end]"
+DIALOG = "You are outside. Moonlight fades gently on the ground revealing a [`d]circle of mushrooms[`r] on your path. To your knowledge they seem harmless, but their phantasmagorical glow is otherworldly.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*eat a few*"

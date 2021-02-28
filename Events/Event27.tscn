@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "Your supplies start to end. You choice stands between rationing them in smaller portions or feasting as before and praying to the ancients for food and water at the cost of your sanity.[@end]"
+DIALOG = "Your supplies [^d]start to end[^r]. You choice stands between rationing them in smaller portions or feasting as before and praying to the ancients for food and water at the cost of your sanity.[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I will ration my supplies in smaller portions."

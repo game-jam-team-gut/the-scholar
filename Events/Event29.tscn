@@ -9,7 +9,7 @@
 texture = ExtResource( 2 )
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "On your road you find a leather bag. Inside lies a note begging you not to take what’s under it. Under the note you find a great number of supplies. You might feel guilty taking them…[@end]"
+DIALOG = "On your road you find a [`d]leather bag[`r]. Inside lies a note begging you not to take what’s under it. Under the note you find a [`6]great number of supplies[`r]. You might [^t]feel guilty[^r] taking them…[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*take the supplies*"

@@ -14,7 +14,7 @@ DIALOG = "[^d]Chanting[^r]. All you hear is [^d]chanting[^r]. Same uncanny words
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 margin_right = 1553.0
 text = "Fellow scholars of the mythical knowledge! They might teach me something."
-mythical_knowledge_change = -20
+health_change = -20
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 margin_right = 1553.0

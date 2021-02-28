@@ -12,7 +12,6 @@ func event_randomizer():
 	return rng.randi_range(0,len(events_array) - 1)
 
 func _ready():
-	#todo take (maybe random) first event
 	var event_number = event_randomizer()
 	var random = events_array[event_number]
 	var event_instance = load(random).instance()
@@ -23,14 +22,12 @@ func _ready():
 	current_event_instance.set_stats(0, stats_manager.max_health, stats_manager.max_sanity)
 
 func end_event(mythical_knowledge_change, health_change, sanity_change):
-	#change stats
-	stats_manager.current_mythical_knowledge += mythical_knowledge_change
-	stats_manager.current_health += health_change
-	stats_manager.current_sanity += sanity_change
+	changeStats(mythical_knowledge_change, health_change, sanity_change)
 	
 	remove_child(current_event_instance)
+	
 	current_event_instance.queue_free()
-	#todo end_event with some animation
+	
 	checkHealth()
 	checkSanity()
 	checkGameOver()
@@ -44,10 +41,10 @@ func next_event():
 	event_instance.connect("event_ended", self, "end_event")
 	current_event_instance = event_instance
 	current_event_instance.set_stats(stats_manager.current_mythical_knowledge, stats_manager.current_health, stats_manager.current_sanity)
-	
+
 func _process(delta):
 	pass
-	
+
 func checkHealth():
 	if stats_manager.current_health > 0 and stats_manager.current_health <= 25:
 		if $HealthLow.is_playing() == true:
@@ -64,7 +61,7 @@ func checkHealth():
 			$HealthLow.stop()
 		if $HealthVeryLow.is_playing() == true:
 			$HealthVeryLow.stop()
-	
+
 func checkSanity():
 	if stats_manager.current_sanity > 0 and stats_manager.current_sanity <= 25:
 		if $SanityLow.is_playing() == true:
@@ -81,7 +78,7 @@ func checkSanity():
 			$SanityLow.stop()
 		if $SanityVeryLow.is_playing() == true:
 			$SanityeryLow.stop()
-	
+
 func checkGameOver():
 	if len(events_array) > 0:
 		if stats_manager.current_sanity <= 0:
@@ -94,3 +91,19 @@ func checkGameOver():
 			next_event()
 	else:
 		get_tree().change_scene("res://Ignorance.tscn")
+
+func changeStats(mythical_knowledge_change, health_change, sanity_change):
+	if stats_manager.current_mythical_knowledge + mythical_knowledge_change >= 0:
+		stats_manager.current_mythical_knowledge += mythical_knowledge_change
+	else:
+		stats_manager.current_mythical_knowledge = 0
+	
+	if stats_manager.current_health + health_change <= 100:
+		stats_manager.current_health += health_change
+	else:
+		stats_manager.current_health = 100
+	
+	if stats_manager.current_sanity + sanity_change <= 100:
+		stats_manager.current_sanity += sanity_change
+	else:
+		stats_manager.current_sanity = 100

@@ -5,7 +5,7 @@
 [node name="Event" instance=ExtResource( 1 )]
 
 [node name="SyndiBox" parent="VBoxContainer2" index="1"]
-DIALOG = "On the floor you find a circle of gouged out symbols representing eldritch beings, some of which are unknown to you. It might be worth studying them, but standing in the circle fills your mind with blasphemous thoughts…"
+DIALOG = "On the floor you find a circle of gouged out symbols representing eldritch beings, some of which are unknown to you. It might be worth studying them, but standing in the circle fills your mind with blasphemous thoughts…[@end]"
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I don’t need to worry about my sanity."

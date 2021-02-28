@@ -13,12 +13,11 @@ DIALOG = "[`4][^v]\"Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn\".[`r][^r
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I can try to reason with them."
-mythical_knowledge_change = 15
-health_change = -10
+mythical_knowledge_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "They’re mad, I should try to avoid them."
-sanity_change = -5
+sanity_change = 5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

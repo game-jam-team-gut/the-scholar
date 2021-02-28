@@ -14,10 +14,11 @@ DIALOG = "You fell the [`7][^v]wrath of The Blind Idiot God, Nuclear Chaos, Daem
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*get down and pray*"
 mythical_knowledge_change = 5
+sanity_change = -40
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "*suffer the wrath*"
-health_change = -10
+health_change = -20
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

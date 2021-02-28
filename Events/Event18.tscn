@@ -13,14 +13,11 @@ DIALOG = "You’re [`b]outside[`r]. You’re beginning to hear some [^v]buzzy so
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*go a different way*"
-health_change = 5
 sanity_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "These are just some bugs."
-mythical_knowledge_change = 5
-health_change = -5
-sanity_change = -5
+health_change = -20
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

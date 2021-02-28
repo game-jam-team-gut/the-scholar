@@ -14,12 +14,11 @@ DIALOG = "As you go further into the darkness you start to hear a[`4] [^t]group 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*let them finish the incantations*"
 mythical_knowledge_change = 5
+health_change = -40
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "OGTHROD AI'FGEB'L-EE'HYOG-SOTHOTH'NGAH'NG AI'YZHRO"
 mythical_knowledge_change = 10
-health_change = -5
-sanity_change = -5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

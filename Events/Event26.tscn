@@ -10,7 +10,7 @@ DIALOG = "On the floor you find a circle of gouged out symbols representing eldr
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I don’t need to worry about my sanity."
 mythical_knowledge_change = 10
-sanity_change = -10
+sanity_change = -20
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I fear I might go mad."

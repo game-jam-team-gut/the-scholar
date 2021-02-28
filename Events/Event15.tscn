@@ -13,11 +13,11 @@ DIALOG = "As you progress through the ruins, you start to notice [`d]starfish-sh
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "These must be Elder Things’ doings! I must study them."
-mythical_knowledge_change = 10
-sanity_change = 5
+mythical_knowledge_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "This doesn’t seem to be anything worth of notice…"
+sanity_change = 5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

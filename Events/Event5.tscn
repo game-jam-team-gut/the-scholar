@@ -14,7 +14,7 @@ DIALOG = "Never in your lifetime you would have thought that [*2][`7]Nyarlathote
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "Listen."
 mythical_knowledge_change = 10
-sanity_change = -10
+sanity_change = -30
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "Run away."

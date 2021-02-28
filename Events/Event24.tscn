@@ -9,12 +9,10 @@ DIALOG = "On the abnormally high ceiling of the room you’re inside of you noti
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I should proceed with caution."
-mythical_knowledge_change = 10
-sanity_change = -10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "There’s no time to be lost."
-sanity_change = 5
+health_change = -20
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

@@ -9,8 +9,8 @@ DIALOG = "On your way you find a human corpse. Upon closer inspection you notice
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*study the corpse*"
-mythical_knowledge_change = 10
-sanity_change = -10
+mythical_knowledge_change = 5
+sanity_change = -20
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "*back off with caution*"

@@ -9,8 +9,7 @@ DIALOG = "You hear howling. As you progress through these ancient ruins it only 
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "It’s just a lone wolf, I am safe."
-mythical_knowledge_change = 10
-sanity_change = -10
+mythical_knowledge_change = -20
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I should wait for the howling to stop and then go."

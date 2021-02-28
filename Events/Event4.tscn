@@ -13,11 +13,11 @@ DIALOG = "Maybe there’s salvation on this Earth? As you’ve found yourself lo
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*try to decipher the map*"
-mythical_knowledge_change = 10
-sanity_change = -5
+mythical_knowledge_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "It’s a waste of time."
+sanity_change = 5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

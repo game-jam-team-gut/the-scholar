@@ -14,7 +14,8 @@ DIALOG = "You’ve found a [`e]backpack[`r] with [`d][^d]mysterious[^r][`r] cont
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*take the backpack with you*"
 mythical_knowledge_change = 5
-health_change = 5
+health_change = -10
+sanity_change = -10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I shouldn’t have even picked that up."

@@ -9,8 +9,8 @@ DIALOG = "Some of the loathsome structures you have just encountered remind you 
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "There’s so much I can learn!"
-mythical_knowledge_change = 10
-sanity_change = -10
+mythical_knowledge_change = -20
+sanity_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "It’s too dangerous."

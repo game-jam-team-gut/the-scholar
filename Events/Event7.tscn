@@ -13,11 +13,12 @@ DIALOG = "As you’ve exited the ruined garden you noticed a [`d]crowd of of vil
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I can’t trust them."
+sanity_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "Let’s go get some supplies."
-mythical_knowledge_change = 5
 health_change = 10
+sanity_change = -5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

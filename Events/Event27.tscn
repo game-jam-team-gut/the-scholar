@@ -9,12 +9,12 @@ DIALOG = "Your supplies start to end. You choice stands between rationing them i
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "I will ration my supplies in smaller portions."
-mythical_knowledge_change = 10
-sanity_change = -10
+health_change = 10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I will pray to the ancients."
-sanity_change = 5
+health_change = 20
+sanity_change = -10
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

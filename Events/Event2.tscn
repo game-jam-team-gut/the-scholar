@@ -13,11 +13,11 @@ DIALOG = "As you were starting to get hungry, you found yourself in a room fille
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*sit at the table and feast*"
-health_change = -5
+health_change = 10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I won’t fall into this trap."
-sanity_change = -5
+sanity_change = 5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

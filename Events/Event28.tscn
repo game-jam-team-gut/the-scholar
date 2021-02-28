@@ -9,12 +9,12 @@ DIALOG = "You are standing at the crossroads. At your left, an alley lit in the 
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*go left*"
-mythical_knowledge_change = 10
-sanity_change = -10
+sanity_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "*go right*"
-sanity_change = 5
+mythical_knowledge_change = 5
+sanity_change = -5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

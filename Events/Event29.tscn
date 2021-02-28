@@ -14,7 +14,7 @@ sanity_change = -10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "*leave the supplies*"
-sanity_change = 5
+sanity_change = 10
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

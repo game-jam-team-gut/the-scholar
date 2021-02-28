@@ -9,7 +9,7 @@ DIALOG = "You find yourself in a room filled with odd-looking sculptures present
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "It’s safe to rest here."
-mythical_knowledge_change = 10
+mythical_knowledge_change = 5
 sanity_change = -10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]

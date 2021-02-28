@@ -13,11 +13,12 @@ DIALOG = "You’ve found a [`c]peculiarly looking tome[`r]. [t5] Albeit it might
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "One peek won’t hurt anybody."
-mythical_knowledge_change = 15
+mythical_knowledge_change = 5
 sanity_change = -10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "Better not to disturb the cursed knowledge."
+sanity_change = 5
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

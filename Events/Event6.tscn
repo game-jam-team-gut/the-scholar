@@ -13,10 +13,11 @@ DIALOG = "You’re starting to hear [`d]something[`r]. What could it be? Rats? N
 
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "Nothing to see here, let’s go."
+sanity_change = 5
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "I should check the walls just to be sure."
-sanity_change = -5
+sanity_change = 20
 
 [node name="OptionButton3" parent="OptionsContainer" index="2"]
 visible = false

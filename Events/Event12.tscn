@@ -14,7 +14,6 @@ DIALOG = "There’s a hideous [`4]statuette[`r] sitting in the corner of the roo
 [node name="OptionButton" parent="OptionsContainer" index="0"]
 text = "*take it*"
 mythical_knowledge_change = 5
-sanity_change = -10
 
 [node name="OptionButton2" parent="OptionsContainer" index="1"]
 text = "*don’t take it*"

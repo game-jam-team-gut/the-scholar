@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Event.tscn" type="PackedScene" id=1]
+
+[node name="Event" instance=ExtResource( 1 )]
+
+[node name="SyndiBox" parent="VBoxContainer2" index="1"]
+DIALOG = "You find yourself in a room filled with odd-looking sculptures presenting winged beasts with starfish shaped heads. The room is well-preserved and serves as a great vantage point for the surrounding area."
+
+[node name="OptionButton" parent="OptionsContainer" index="0"]
+text = "It’s safe to rest here."
+mythical_knowledge_change = 10
+sanity_change = -10
+
+[node name="OptionButton2" parent="OptionsContainer" index="1"]
+text = "The sculptures fill me with an indescribable fear."
+sanity_change = 5
+
+[node name="OptionButton3" parent="OptionsContainer" index="2"]
+visible = false

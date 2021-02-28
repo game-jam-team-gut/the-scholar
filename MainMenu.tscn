@@ -1,11 +1,13 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
-[ext_resource path="res://MainMenu/TitleFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://MainMenu/MainMenuTitleFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://Fonts/ButtonFont.tres" type="DynamicFont" id=2]
 [ext_resource path="res://MainMenu/PlayButton.gd" type="Script" id=3]
 [ext_resource path="res://MainMenu/ExitButton.gd" type="Script" id=4]
 [ext_resource path="res://MainMenu/CreditsButton.gd" type="Script" id=5]
 [ext_resource path="res://MainMenu/menu.png" type="Texture" id=6]
+[ext_resource path="res://MainMenu/ButtonHoverPressed.tres" type="StyleBox" id=7]
+[ext_resource path="res://MainMenu/ButtonNormal.tres" type="StyleBox" id=8]
 
 [node name="MainMenu" type="Control"]
 anchor_right = 1.0
@@ -39,6 +41,7 @@ custom_fonts/font = ExtResource( 1 )
 text = "The Scholar
 "
 align = 1
+valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -64,6 +67,9 @@ margin_bottom = 567.0
 margin_right = 400.0
 margin_bottom = 100.0
 rect_min_size = Vector2( 400, 100 )
+custom_styles/hover = ExtResource( 7 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = ExtResource( 8 )
 custom_fonts/font = ExtResource( 2 )
 text = "Play"
 script = ExtResource( 3 )
@@ -76,6 +82,9 @@ margin_top = 104.0
 margin_right = 400.0
 margin_bottom = 204.0
 rect_min_size = Vector2( 400, 100 )
+custom_styles/hover = ExtResource( 7 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = ExtResource( 8 )
 custom_fonts/font = ExtResource( 2 )
 text = "Credits"
 script = ExtResource( 5 )
@@ -88,6 +97,9 @@ margin_top = 208.0
 margin_right = 400.0
 margin_bottom = 308.0
 rect_min_size = Vector2( 400, 100 )
+custom_styles/hover = ExtResource( 7 )
+custom_styles/pressed = ExtResource( 7 )
+custom_styles/normal = ExtResource( 8 )
 custom_fonts/font = ExtResource( 2 )
 text = "Exit"
 script = ExtResource( 4 )

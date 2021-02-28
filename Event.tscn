@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Fonts/SmallButtonFont.tres" type="DynamicFont" id=1]
 [ext_resource path="res://EventScreen/sample-background.png" type="Texture" id=2]
@@ -8,6 +8,8 @@
 [ext_resource path="res://EventScreen/OptionButton.gd" type="Script" id=6]
 [ext_resource path="res://addons/SyndiBox/syndibox.gd" type="Script" id=7]
 [ext_resource path="res://EventScreen/OptionsContainer.gd" type="Script" id=8]
+[ext_resource path="res://MainMenu/ButtonHoverPressed.tres" type="StyleBox" id=9]
+[ext_resource path="res://MainMenu/ButtonNormal.tres" type="StyleBox" id=10]
 
 [node name="Event" type="Control"]
 anchor_right = 1.0
@@ -72,7 +74,10 @@ __meta__ = {
 
 [node name="ExitButton" type="Button" parent="VBoxContainer"]
 margin_right = 170.0
-margin_bottom = 45.0
+margin_bottom = 43.0
+custom_styles/hover = ExtResource( 9 )
+custom_styles/pressed = ExtResource( 9 )
+custom_styles/normal = ExtResource( 10 )
 custom_fonts/font = ExtResource( 1 )
 text = "Exit"
 __meta__ = {
@@ -80,9 +85,12 @@ __meta__ = {
 }
 
 [node name="MainMenuButton" type="Button" parent="VBoxContainer"]
-margin_top = 49.0
+margin_top = 47.0
 margin_right = 170.0
-margin_bottom = 94.0
+margin_bottom = 90.0
+custom_styles/hover = ExtResource( 9 )
+custom_styles/pressed = ExtResource( 9 )
+custom_styles/normal = ExtResource( 10 )
 custom_fonts/font = ExtResource( 1 )
 text = "MainMenu"
 __meta__ = {
@@ -105,23 +113,32 @@ __meta__ = {
 
 [node name="OptionButton" type="Button" parent="OptionsContainer"]
 margin_right = 1440.0
-margin_bottom = 58.0
+margin_bottom = 56.0
+custom_styles/hover = ExtResource( 9 )
+custom_styles/pressed = ExtResource( 9 )
+custom_styles/normal = ExtResource( 10 )
 custom_fonts/font = ExtResource( 3 )
 text = "One peek won't hurt anybody"
 script = ExtResource( 6 )
 
 [node name="OptionButton2" type="Button" parent="OptionsContainer"]
-margin_top = 62.0
+margin_top = 60.0
 margin_right = 1440.0
-margin_bottom = 120.0
+margin_bottom = 116.0
+custom_styles/hover = ExtResource( 9 )
+custom_styles/pressed = ExtResource( 9 )
+custom_styles/normal = ExtResource( 10 )
 custom_fonts/font = ExtResource( 3 )
 text = "Better not to disturb the cursed knowledge"
 script = ExtResource( 6 )
 
 [node name="OptionButton3" type="Button" parent="OptionsContainer"]
-margin_top = 124.0
+margin_top = 120.0
 margin_right = 1440.0
-margin_bottom = 182.0
+margin_bottom = 176.0
+custom_styles/hover = ExtResource( 9 )
+custom_styles/pressed = ExtResource( 9 )
+custom_styles/normal = ExtResource( 10 )
 custom_fonts/font = ExtResource( 3 )
 text = "Third option"
 script = ExtResource( 6 )
